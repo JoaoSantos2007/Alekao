@@ -1,0 +1,55 @@
+.roomForm{
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--cor-card);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.roomForm > input{
+    font-size: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--cor-borda);
+    outline: none;
+    margin: 15px 0;
+    color: var(--cor-fonte);
+    background-color: var(--cor-card);
+}
+
+.roomForm > input::placeholder{
+    color: var(--cor-fonte);
+}
+
+.roomForm__color{
+    width: 100%;
+    height: 64px;
+}
+
+.roomForm__color::-webkit-color-swatch-wrapper,.roomForm__color::-webkit-color-swatch{
+    margin: 0;
+    padding: 0;
+}
+
+
+.roomForm__footer input{
+    height: 54px;
+    width: 140px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--cor-fonte);
+    cursor: pointer;
+}
+
+.roomForm__footer input:hover{
+    box-shadow: 3px 3px 3px var(--cor-sombra);
+}
+
+.roomForm__submit{
+    background-color: var(--cor-confirm);
+}
+
+.roomForm__cancel{
+    background-color: var(--cor-cancel);
+}

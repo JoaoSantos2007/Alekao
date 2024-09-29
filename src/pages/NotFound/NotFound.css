@@ -1,0 +1,25 @@
+.pageNotFound__container .pageNotFound__text{
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.returnBtn{
+    border: none;
+    width: 200px;
+    height: 75px;
+    font-size: 3em;
+    background-color: green;
+    color: var(--branco);
+    font-weight: bold;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+
+.returnBtn:hover{
+    width: 225px;
+    height: 100px;
+    box-shadow: 4px 4px 4px black;
+}

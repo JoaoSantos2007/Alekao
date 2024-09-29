@@ -1,0 +1,39 @@
+.NavBar{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    height: 100%;
+    padding: 0px 20px;
+    background-color: var(--cor-navbar);
+}
+
+.NavBar__logo{
+    width: 39px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.NavBar hr{
+    width: auto;
+    size: 1px;
+    margin: 10px 0px;
+}
+
+.NavBar__mode{
+    content: url("../../../assets/icon/tab.svg");
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    padding: 7.5px;
+}
+
+.NavBar__mode:hover{
+    border-radius: 10px;
+    background-color: var(--cor-secundaria);
+}
+
+.NavBar__mode__extend{
+    content: url("../../../assets/icon/west.svg");;
+}

@@ -1,0 +1,17 @@
+.panel{
+    width: 50%;
+    min-height: 300px;
+    height: auto;
+    background: var(--cor-card);
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 6px;
+    position: relative;
+    color: var(--cor-fonte);
+}
+
+@media screen and (max-width: 786px) {
+    .panel{
+        width: 100%;
+    }
+}

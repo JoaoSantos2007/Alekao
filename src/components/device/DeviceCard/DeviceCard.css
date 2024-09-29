@@ -1,0 +1,32 @@
+.deviceCard{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    max-width: 450px;
+    height: 104px;
+    background-color: var(--cor-card);
+    padding: 0px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 30px 30px;
+    transition: 200ms;
+}
+
+.deviceCard:hover{
+    box-shadow: 5px 5px 5px var(--cor-sombra);
+    max-width: 475px;
+    height: 129px;
+}
+
+.deviceCard__img{
+    border-right: 1px solid var(--cor-borda);
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.deviceCard__name{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cor-fonte);
+}

@@ -1,0 +1,9 @@
+.updateRoom__container{
+    width: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
